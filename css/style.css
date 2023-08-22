@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.section-1 {
+  background-color: antiquewhite;
+}
+
+.section-2 {
+  background-color: aqua;
+  font-size: 100px;
+}
+
+.main-wrapper {
+  display: flex;
+}
+
+.section-3 {
+  background-color: black;
+  margin-top: -100vh;
+  position: relative;
+}
